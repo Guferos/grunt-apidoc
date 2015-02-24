@@ -12,7 +12,7 @@
   "homepage": "http://apidocjs.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apidoc/grunt-apidoc.git"
+    "url": "https://github.com/Guferos/grunt-apidoc.git"
   },
   "scripts": {
     "test": "grunt test"
@@ -32,7 +32,7 @@
     "node": ">= 0.10.0"
   },
   "dependencies": {
-    "apidoc": "*"
+    "apidoc": "git+https://github.com/Guferos/apidoc.git"
   },
   "devDependencies": {
     "grunt-contrib-clean": "~0.6.0",
